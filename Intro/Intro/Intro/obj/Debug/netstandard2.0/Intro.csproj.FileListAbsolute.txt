@@ -1,0 +1,33 @@
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.csprojAssemblyReference.cache
+D:\Xamrin\Intro\Intro\Intro\bin\Debug\netstandard2.0\Intro.deps.json
+D:\Xamrin\Intro\Intro\Intro\bin\Debug\netstandard2.0\Intro.dll
+D:\Xamrin\Intro\Intro\Intro\bin\Debug\netstandard2.0\ref\Intro.dll
+D:\Xamrin\Intro\Intro\Intro\bin\Debug\netstandard2.0\Intro.pdb
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.AssemblyInfoInputs.cache
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.AssemblyInfo.cs
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.csproj.CoreCompileInputs.cache
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.dll
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\ref\Intro.dll
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.pdb
+D:\Xamrin\Intro\Intro\Intro\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\bin\Debug\netstandard2.0\Intro.deps.json
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\bin\Debug\netstandard2.0\Intro.dll
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\bin\Debug\netstandard2.0\ref\Intro.dll
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\bin\Debug\netstandard2.0\Intro.pdb
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.csprojAssemblyReference.cache
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.AssemblyInfoInputs.cache
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.AssemblyInfo.cs
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.csproj.CoreCompileInputs.cache
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.dll
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\ref\Intro.dll
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\Intro.pdb
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\MasterDetail_FoodPage.xaml.g.cs
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\MasterDetail_FoodPageDetail.xaml.g.cs
+D:\Projects\Cross Platform Xamarin\Intro\Intro\Intro\Intro\obj\Debug\netstandard2.0\MasterDetail_FoodPageMaster.xaml.g.cs

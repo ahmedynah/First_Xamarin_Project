@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local ="clr-namespace:Intro"
+             x:Class="Intro.Page1">
+      <Grid  Padding="10"
+          >
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ImageButton x:Name="food"
+                     BackgroundColor="Yellow"
+                     Source="{local:ImageResourcesExtention Intro.images.fd.png }"
+                     Clicked="food_Clicked"
+
+                     />
+        <ImageButton x:Name="groc"
+                     BackgroundColor="Yellow"
+                     Source="{local:ImageResourcesExtention Intro.images.groc.png}"
+                     Aspect="AspectFit"
+                     Grid.Row="0" Grid.Column="1"
+                     Clicked="groc_Clicked"/>
+        <ImageButton x:Name="med"
+                     BackgroundColor="Yellow"
+                     Source="{local:ImageResourcesExtention Intro.images.med.png}"
+                     Aspect="AspectFit"
+                     Grid.Row="1" Grid.Column="0"/>
+       
+        <ImageButton x:Name="cos"
+                     BackgroundColor="Yellow"
+                     Source="{local:ImageResourcesExtention Intro.images.cos.png}"
+                     Aspect="AspectFit"
+                     Grid.Row="1" Grid.Column="1"/>
+
+        <Label x:Name="lb1"
+               TextColor="Black"
+              Text="Food"
+               Padding="10"
+               FontAttributes="Bold"
+              FontSize="32"
+              Grid.Row="0" Grid.Column="0"
+              HorizontalOptions="Center" VerticalOptions="End"/>
+        <Label x:Name="lb2"
+               TextColor="Black"
+              Text="Groceries"
+                Padding="10"
+               FontAttributes="Bold"
+              FontSize="32"
+              Grid.Row="0" Grid.Column="1"
+               HorizontalOptions="Center" VerticalOptions="End"/>
+        <Label x:Name="lb3"
+               TextColor="Black"
+              Text="Medicine"
+               Padding="10"
+               FontAttributes="Bold"
+              FontSize="32"
+              Grid.Row="1" Grid.Column="0"
+               HorizontalOptions="Center" VerticalOptions="End"/>
+        <Label x:Name="lb4"
+               TextColor="Black"
+              Text="Cosmetics"
+               Padding="10"
+               FontAttributes="Bold"
+              FontSize="32"
+              Grid.Row="1" Grid.Column="1"
+               HorizontalOptions="Center" VerticalOptions="End"/>
+
+    </Grid>
+</ContentPage>

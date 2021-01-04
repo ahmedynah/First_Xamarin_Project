@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local ="clr-namespace:Intro"
+             x:Class="Intro.MasterDetail_FoodPageDetail"
+             Title="Detail">
+    <ListView x:Name="MainListView"  
+             HasUnevenRows="True"  
+             ItemTapped="MainListView_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <RelativeLayout>
+                        <Image Aspect="AspectFit"
+
+                               WidthRequest="150"
+                               Margin="0,20,20,0"
+                               x:Name="image"
+                               Source="https://twisper.com/wp-content/uploads/2020/03/close-up-photo-of-burger-3915906-scaled.jpg"
+                                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.07}"
+                                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.15}"></Image>
+                            
+                        <Label Text="{Binding Name}"
+                               x:Name="title"
+                               FontSize="Medium"
+                               TextColor="Black"
+                               Margin="20"
+                               RelativeLayout.XConstraint="{ConstraintExpression
+                                Type=RelativeToView,
+                                ElementName=image,
+                                Property = Width,
+                                Factor=1.25
+                                }"
+                               RelativeLayout.YConstraint="{ConstraintExpression
+                                Type = RelativeToView,
+                                ElementName = image,
+                                Property= Height,
+                                Factor = 0
+                            }"/>
+                        
+                           
+                        <Label Text="{Binding Description}"
+                               FontSize="Subtitle" 
+                                Margin="20"
+                               Padding="0,0,200,0"
+                               x:Name="dis"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                Type=RelativeToView,
+                                ElementName=image,
+                                Property = Width,
+                                Factor=1.25
+                                }"
+                               RelativeLayout.YConstraint="{ConstraintExpression
+                                Type = RelativeToView,
+                                ElementName = title,
+                                Property= Height,
+                                Factor = 1
+                            }"/>
+                        
+
+                           
+                        <Label Text="{Binding Price}"
+                               TextColor="OrangeRed"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                Type=RelativeToParent,
+                                ElementName=image,
+                                Property = Width,
+                                Factor=0.8
+                                }"
+                                RelativeLayout.YConstraint="{ConstraintExpression
+                                Type = RelativeToView,
+                                ElementName = dis,
+                                Property= Height,
+                                Factor = 1.75
+                            }"/>
+                        
+                        
+                    </RelativeLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
